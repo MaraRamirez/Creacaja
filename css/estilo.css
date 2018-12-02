@@ -1,0 +1,139 @@
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.logo1{
+      text-align: left;
+}
+
+/*---- Secciones ----*/
+#s0{
+      background-color: #fcfcfc;
+}
+#s1{
+      background-color: #FFFFFF;
+}
+#s6{
+      background-color: #001433;
+}
+
+/*---- Navbar ----*/
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 40px;
+}
+nav ul {
+      line-height: 10px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+nav.black ul {
+      background: #000;
+}
+nav ul li {
+      display: inline-block;
+      padding: 8px 65px;;
+}
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+/*---- Texto e iconos ----*/
+/*Padding de texto (historia) */
+.showcase .showcase-text {
+  padding: 3rem;
+}
+/*Tamaño de cuadros de texto (historia) */
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+/*Cuadro de Iconos */
+.features-icons {
+  padding-top: 9rem;
+  padding-bottom: 7rem;
+}
+/*Tamaños de cuadro de Texto (iconos*/
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+/*Espacio entre texto e iconos(iconos) */
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+/*Tamaño de icono original(iconos) */
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 5rem;
+}
+/*Aumentar el tamaño */
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 6rem;
+}
+
+/*---- Button ----*/
+.btn{
+	width:60%;
+	height: 50px;
+	margin:30px;
+}
+.btn{
+  width:60%;
+  height: 50px;
+  margin:30px;
+}
+.btn-primary{
+	background-color: #001433;
+	border-color: #FFFFFF;
+}
+.btn-secundary
+	border-color: #FFFFFF;
+}
+.btn-primary:hover{
+	background-color: #1a75ff;
+	color:#000000;
+	border-color: #660033;	
+}
+
+/*---- Footer ----*/
+
+.footer_widget{
+    color:#e8e8e8;
+}
+.footer_widget .main_widget{
+    padding:15px 20px 80px 20px; 
+    overflow: hidden;
+}
+.footer_title_left{
+    margin-bottom:10px;
+}
+.footerlogo{
+    margin-bottom: 20px;
+}
+.footer_widget p.footer_title{
+    margin-bottom:20px;
+    font-size:0.8125rem;
+    color:#f6f7fa;
+}
+.footer_widget p{
+    color:#f6f7fa;
+    font-size:0.875rem;
+    max-width: 80%;
+    line-height: 1.325rem;
+}
+
+
+ 
